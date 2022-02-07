@@ -1,0 +1,19 @@
+package com.vamk.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.vamk.repository.CityRepository;
+
+@RestController
+public class CityController {
+
+	@Autowired
+	public CityRepository cityRepository;
+	
+	@GetMapping("/cities")
+	public String[] getCitys() {
+		return null;
+	}
+}

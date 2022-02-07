@@ -1,0 +1,6 @@
+package com.vamk.controller;
+
+@RestController
+public class CityController {
+
+}

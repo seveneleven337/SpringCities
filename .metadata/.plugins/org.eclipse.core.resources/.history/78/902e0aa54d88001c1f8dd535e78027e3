@@ -1,0 +1,6 @@
+package com.vamk.entity;
+
+@Entity
+public class City {
+
+}
